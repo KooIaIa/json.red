@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: IndianRed;
+}
+#json {
+  	color: black;
+	white-space: pre-wrap;
+	contenteditable: true;
+    font-family: monospace;
+  	font-size: 300%;
+    width: 50%; /* You can adjust the width as per your requirement */
+    margin: 0 auto; /* This will center the div horizontally */
+    border: 0px solid red; /* Just to visualize the div */ 
+}
+
+#json:focus {
+    outline: none;
+    font-weight: bold;
+    text-shadow: 1px 0px 0px blue, -1px 0px 0px green, 0px 1px 0px yellow, 0px -1px 0px red;
+}
+</style>
+</head>
+
+<body>
+
+<div id="json" contenteditable="true">
+{"Hello": "Hi :)"}
+
+["Today is a nice day for JSON"]
+
+Let JSON_Sofware= {
+json: 1,
+tomatoes: "red",
+run: "&ltscript&gt
+console.log("Helloworld");
+&ltscript&gt"}
+
+</div>
+
+</body>
+</html>
